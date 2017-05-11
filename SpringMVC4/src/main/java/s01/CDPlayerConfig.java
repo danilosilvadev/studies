@@ -1,5 +1,6 @@
 package s01;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -8,6 +9,12 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @Configuration
-@ComponentScan
+//@ComponentScan
 public class CDPlayerConfig {
+
+    @Bean
+    public CompactDisc cd() {
+        return new CompactDisc();
+    }
+
 }
