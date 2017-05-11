@@ -8,6 +8,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class CompactDisc {
 
-    private String whatever;
+
+    public void play(){
+        System.out.print("PLAY carai");
+    }
+
 
 }
