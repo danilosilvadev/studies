@@ -1,0 +1,33 @@
+WEB APPLICATION WITH SPRING MVC
+
+STEP 1:
+
+Create the configuration with 3 classes and add the server(tomcat/jboss):
+
+RootConfig - sets the root
+
+Webconfig - The view resolver and defaultservlethandling
+
+ProjectNameWebinitializer - Sets the root, servletconfig and mapping to the dispatcher.
+
+DataConfig - It is the config class with beans and DI.
+
+STEP 2:
+
+WebConfig - Inside the package with controllers and forms this sets the view extension and path.
+
+STEp 3:
+
+Create controllers and forms at the same package.
+
+STEP 4:
+
+Create the models.
+
+Step 5:
+
+Create the jsp/html pages at views and the css at resources.
+
+Step 6:
+
+Create the data jdbc configuration and the spring repositories at a new package.
