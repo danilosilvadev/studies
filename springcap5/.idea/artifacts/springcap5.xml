@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springcap5">
+    <output-path>$PROJECT_DIR$/out/artifacts/springcap5</output-path>
+    <root id="root" />
+  </artifact>
+</component>

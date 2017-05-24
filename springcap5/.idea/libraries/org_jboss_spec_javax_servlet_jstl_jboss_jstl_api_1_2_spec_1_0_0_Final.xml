@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.jboss.spec.javax.servlet.jstl:jboss-jstl-api_1.2_spec:1.0.0.Final" type="repository">
+    <properties maven-id="org.jboss.spec.javax.servlet.jstl:jboss-jstl-api_1.2_spec:1.0.0.Final" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/servlet/jstl/jboss-jstl-api_1.2_spec/1.0.0.Final/jboss-jstl-api_1.2_spec-1.0.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.0.Final/jboss-servlet-api_3.0_spec-1.0.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/servlet/jsp/jboss-jsp-api_2.2_spec/1.0.0.Final/jboss-jsp-api_2.2_spec-1.0.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/el/jboss-el-api_2.2_spec/1.0.0.Final/jboss-el-api_2.2_spec-1.0.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
