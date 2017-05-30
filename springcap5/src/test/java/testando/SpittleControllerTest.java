@@ -75,7 +75,7 @@ public class SpittleControllerTest {
         mockMvc.perform(get("/spittles/12345"))
                 .andExpect(view().name("spittle"))
                 .andExpect(model().attributeExists("spittle"))
-                .andExpect(model().attribute("spittle", expectedSpittle));
+                .andExpect(model().attribute("spittle", String.valueOf(expectedSpittle)));
     }
 
 /*
